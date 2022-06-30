@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio personal donde se puede conocer sobre mí, tanto personal como profesionalmente.">
+    <meta property="og:title" content="Portfolio | Enmanuel">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://enmanuel-otero-montano.github.io/Portfolio__Dos/">
+    <meta property="og:description" content="Este es mi Porftolio. Aquí encontrará proyectos que he realizados e información acerca de mí">
+    <meta property="og:image" content="https://raw.githubusercontent.com/Enmanuel-Otero-Montano/Portfolio__Dos/main/assets/favicon/ms-icon-310x310.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon//apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon//apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon//apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon//apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon//apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon//apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon//apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon//apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon//apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="assets/favicon//android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon//favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon//favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon//manifest.json">
+    <meta name="msapplication-TileColor" content="#f0e5db">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#f0e5db">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles-dist.css">
+    <title>Portfolio | Enmanuel</title>
+</head>
+<body>
+    <header id="header" class="header">
+        <div id="menu" class="header__menu-container" role="button">
+            <div class="hamburger-menu"></div>
+            <div class="hamburger-menu"></div>
+            <div class="hamburger-menu"></div>
+        </div>
+        <nav class="nav nav-hidden">
+            <ul class="nav-list">
+                <li><a href="#about-me" class="nav-links">Sobre mí</a></li>
+                <li><a href="#projects" class="nav-links">Proyectos</a></li>
+                <li><a href="#knowledge" class="nav-links">Conocimientos</a></li>
+                <li><a href="#contact-me" class="nav-links">Contáctame</a></li>
+            </ul>
+            <ul class="list-socials">
+                <li title="Contáctame por Telegram"><a href="https://t.me/enmanuelom" target="_blanck"><svg class="nav-contact-icon" width="25" height="25" viewBox="0 0 24 24"><path d="M9.78,18.65L10.06,14.42L17.74,7.5C18.08,7.19 17.67,7.04 17.22,7.31L7.74,13.3L3.64,12C2.76,11.75 2.75,11.14 3.84,10.7L19.81,4.54C20.54,4.21 21.24,4.72 20.96,5.84L18.24,18.65C18.05,19.56 17.5,19.78 16.74,19.36L12.6,16.3L10.61,18.23C10.38,18.46 10.19,18.65 9.78,18.65Z"/></svg></a></li>
+                <li title="Perfil de Linkedin"><a href="https://www.linkedin.com/in/enmanuel-otero-montano-1a001618b/" target="_blanck"><svg class="nav-contact-icon" width="25" height="25" viewBox="0 0 32 32"><path d="M8.268 28h-5.805v-18.694h5.805zM5.362 6.756c-1.856 0-3.362-1.538-3.362-3.394s1.505-3.362 3.362-3.362 3.362 1.505 3.362 3.362c0 1.856-1.506 3.394-3.362 3.394zM29.994 28h-5.792v-9.1c0-2.169-0.044-4.95-3.018-4.95-3.018 0-3.481 2.356-3.481 4.794v9.256h-5.799v-18.694h5.567v2.55h0.081c0.775-1.469 2.668-3.019 5.492-3.019 5.875 0 6.955 3.869 6.955 8.894v10.269z"/></svg></a></li>
+                <li title="Perfil de Github"><a href="https://github.com/Enmanuel-Otero-Montano" target="_blank"><svg class="nav-contact-icon" width="32" height="32" viewBox="4 4 38 38"><defs></defs><title/><g><path width="30" height="30" d="M20,8a12,12,0,0,0-3.79,23.39c.6.11.82-.26.82-.58s0-1,0-2c-3.34.72-4-1.61-4-1.61a3.21,3.21,0,0,0-1.33-1.76c-1.09-.74.08-.73.08-.73a2.55,2.55,0,0,1,1.84,1.24,2.56,2.56,0,0,0,3.49,1,2.59,2.59,0,0,1,.76-1.61c-2.66-.3-5.47-1.33-5.47-5.93a4.63,4.63,0,0,1,1.24-3.22A4.28,4.28,0,0,1,13.7,13s1-.33,3.3,1.23a11.18,11.18,0,0,1,6,0C25.3,12.65,26.3,13,26.3,13a4.28,4.28,0,0,1,.12,3.17,4.63,4.63,0,0,1,1.23,3.22c0,4.61-2.8,5.63-5.47,5.92A2.88,2.88,0,0,1,23,27.52c0,1.6,0,2.89,0,3.29s.21.69.82.58A12,12,0,0,0,20,8Z"/></g></svg></a></li>
+            </ul>
+        </nav>
+        <div class="body-overlay">
+        </div>
+        <div class="header__mode-container">
+            <div class="switch">
+                <input type="radio" class="input-radio sun" name="input-radio" hidden>
+                <input type="radio" class="input-radio moon" name="input-radio">
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section id="section-hero" class="section-hero">
+            <div class="logo-container"><img src="assets/images/logo-personal.png" width="30" height="30" alt="imagen del logo personal"></div>
+            <h1 class="hero">¡Hola!<span class="hero__name-preposition">Soy <span class="hero__name">Enmanuel</span>,</span>Desarrollador Frontend.</h1>
+            <div class="section-hero__text-container">
+                <p class="section-hero__text"><strong>Nota:</strong> Me gusta el café <img class="section-hero__text-icon yellow-icon" width="22" height="22" src="assets/images/coffee.svg" alt="taza de cafe">, pero por ahora solo quiero código <img class="section-hero__text-icon yellow-icon" width="22" height="22" src="assets/images/html-sign.svg" alt="signo de cierre de etiqueta de html"><img class="section-hero__text-icon yellow-icon" width="22" height="22" src="assets/images/parentesis.svg" alt="signo de cierre de etiqueta de html"><img class="section-hero__text-icon yellow-icon" width="22" height="22" src="assets/images/microsoft_visual_studio_code.svg" alt="logo de visual studio code">.</p>
+            </div>
+            <div class="arrow-container">
+                <svg class="arrow-down-one" width="20" height="20" viewBox="0 0 129 129" enable-background="new 0 0 129 129">
+                    <g>
+                        <path d="m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z"/>
+                    </g>
+                </svg>
+                <svg class="arrow-down-two" width="20" height="20" viewBox="0 0 129 129" enable-background="new 0 0 129 129">
+                    <g>
+                        <path d="m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z"/>
+                    </g>
+                </svg>
+            </div>
+        </section>
+        <section class="section-about-me">
+            <h2 id="about-me" class="aligned">Sobre mí</h2>
+            <div class="avatar-container">
+                <img src="assets/images/yo.jpg" class="avatar" alt="foto">
+            </div>
+            <p class="paragraph line-height font-size text-color">
+                Mi nombre es Enmanuel Otero Montano. Actualmente vivo en Montevideo. Soy graduado de Bachillerato Técnico en Informática. Mi experiencia laboral ha estado vinculada a 3 rubros principalmente, entre ellas la informática. Mi trabajo en el sector de la informática se ha desarrollado principalmente en el soporte técnico y la programación, esta última en los primeros años de trabajo. A día de hoy me encuentro estudiando para actualizar los conocimientos de programación.
+            </p>
+            <p class="paragraph line-height font-size text-color">
+                Me gusta todo lo relacionado con la tecnología, pero dentro de este sector mi gran pasión está en los dispositivos portátiles y los videos juegos, teniendo como objetivo en un futuro cercano desarrollar mi primer video juego.
+            </p>
+        </section>
+        <section class="section-projects">
+            <h2 id="projects" class="aligned">Proyectos</h2>
+            <h3 class="project-names aligned">Banderas, países y regiones</h3>
+            <div class="container-presentation-image">
+                <img src="assets/images/banderas-0.png" class="project-images" alt="imágenes del proyecto">
+                <img src="assets/images/banderas-1.png" class="project-images" alt="imágenes del proyecto">
+                <img src="assets/images/banderas-2.png" class="project-images" alt="imágenes del proyecto">
+            </div>
+            <div class="buttons-slide-container">
+                <button class="btn-left btn-disabled-opacity" disabled><svg width="25" height="25" viewBox="0 0 100 100"><title/><polygon points="65 80 50 50 65 20 35 50 65 80"/></svg></button>
+                <button class="btn-right"><svg width="25" height="25" viewBox="0 0 100 100"><title/><polygon points="65 80 50 50 65 20 35 50 65 80"/></svg></button>
+            </div>
+            <div class="project-links-container">
+                <a href="https://enmanuel-otero-montano.github.io/Juego-de-Banderas/" target="_blanck" class="project-links">Demo<svg aria-hidden="true" class="project-links-icon-play" witdth="34" height="34" style="enable-background:new 0 0 100 100;" viewBox="0 0 100 100" xml:space="preserve"><g id="Layer_4_copy"><path d="M31.356,25.677l38.625,22.3c1.557,0.899,1.557,3.147,0,4.046l-38.625,22.3c-1.557,0.899-3.504-0.225-3.504-2.023V27.7   C27.852,25.902,29.798,24.778,31.356,25.677z"/><path d="M69.981,47.977l-38.625-22.3c-0.233-0.134-0.474-0.21-0.716-0.259l37.341,21.559c1.557,0.899,1.557,3.147,0,4.046   l-38.625,22.3c-0.349,0.201-0.716,0.288-1.078,0.301c0.656,0.938,1.961,1.343,3.078,0.699l38.625-22.3   C71.538,51.124,71.538,48.876,69.981,47.977z"/><path d="M31.356,25.677l38.625,22.3c1.557,0.899,1.557,3.147,0,4.046   l-38.625,22.3c-1.557,0.899-3.504-0.225-3.504-2.023V27.7C27.852,25.902,29.798,24.778,31.356,25.677z" style="fill:none;stroke:#000000;stroke-miterlimit:10;"/></g></svg></a>
+                <a href="https://github.com/Enmanuel-Otero-Montano/Juego-de-Banderas" target="_blanck" class="project-links">Repo<svg class="nav-contact-icon" width="32" height="32" viewBox="2 2 38 38"><defs></defs><title/><g><path width="30" height="30" d="M20,8a12,12,0,0,0-3.79,23.39c.6.11.82-.26.82-.58s0-1,0-2c-3.34.72-4-1.61-4-1.61a3.21,3.21,0,0,0-1.33-1.76c-1.09-.74.08-.73.08-.73a2.55,2.55,0,0,1,1.84,1.24,2.56,2.56,0,0,0,3.49,1,2.59,2.59,0,0,1,.76-1.61c-2.66-.3-5.47-1.33-5.47-5.93a4.63,4.63,0,0,1,1.24-3.22A4.28,4.28,0,0,1,13.7,13s1-.33,3.3,1.23a11.18,11.18,0,0,1,6,0C25.3,12.65,26.3,13,26.3,13a4.28,4.28,0,0,1,.12,3.17,4.63,4.63,0,0,1,1.23,3.22c0,4.61-2.8,5.63-5.47,5.92A2.88,2.88,0,0,1,23,27.52c0,1.6,0,2.89,0,3.29s.21.69.82.58A12,12,0,0,0,20,8Z"/></g></svg></a>
+            </div>
+            <p class="paragraph line-height font-size text-color">
+                Este proyecto es personal. Es una aplicación didáctica e interactiva y como su nombre indica se trata de banderas y países. Tiene algunas características de videojuego para hacerla más desafiante y entretenida. Visite el repositorio para conocer futuras implementaciones y más detalles sobre el desarrollo.
+            </p>
+            <h3 class="project-names aligned">Ecommerce product</h3>
+            <div class="container-presentation-image">
+                <img src="assets/images/ecommerce-0.webp" class="project-images" alt="imágenes del proyecto">
+                <img src="assets/images/ecommerce-1.webp" class="project-images" alt="imágenes del proyecto">
+                <img src="assets/images/ecommerce-2.webp" class="project-images" alt="imágenes del proyecto">
+            </div>
+            <div class="buttons-slide-container">
+                <button class="btn-left btn-disabled-opacity" disabled><svg width="25" height="25" viewBox="0 0 100 100"><title/><polygon points="65 80 50 50 65 20 35 50 65 80"/></svg></button>
+                <button class="btn-right"><svg width="25" height="25" viewBox="0 0 100 100"><title/><polygon points="65 80 50 50 65 20 35 50 65 80"/></svg></button>
+            </div>
+            <div class="project-links-container">
+                <a href="https://enmanuel-otero-montano.github.io/ecommerce-product-page/" target="_blanck" class="project-links">Demo<svg aria-hidden="true" class="project-links-icon-play" width="34" height="34" style="enable-background:new 0 0 100 100;" viewBox="0 0 100 100" xml:space="preserve"><g id="Layer_4_copy"><path d="M31.356,25.677l38.625,22.3c1.557,0.899,1.557,3.147,0,4.046l-38.625,22.3c-1.557,0.899-3.504-0.225-3.504-2.023V27.7   C27.852,25.902,29.798,24.778,31.356,25.677z"/><path d="M69.981,47.977l-38.625-22.3c-0.233-0.134-0.474-0.21-0.716-0.259l37.341,21.559c1.557,0.899,1.557,3.147,0,4.046   l-38.625,22.3c-0.349,0.201-0.716,0.288-1.078,0.301c0.656,0.938,1.961,1.343,3.078,0.699l38.625-22.3   C71.538,51.124,71.538,48.876,69.981,47.977z"/><path d="M31.356,25.677l38.625,22.3c1.557,0.899,1.557,3.147,0,4.046   l-38.625,22.3c-1.557,0.899-3.504-0.225-3.504-2.023V27.7C27.852,25.902,29.798,24.778,31.356,25.677z" style="fill:none;stroke:#000000;stroke-miterlimit:10;"/></g></svg></a>
+                <a href="https://github.com/Enmanuel-Otero-Montano/ecommerce-product-page" target="_blanck" class="project-links">Repo<svg class="nav-contact-icon" width="32" height="32" viewBox="2 2 38 38"><defs></defs><title/><g><path width="30" height="30" d="M20,8a12,12,0,0,0-3.79,23.39c.6.11.82-.26.82-.58s0-1,0-2c-3.34.72-4-1.61-4-1.61a3.21,3.21,0,0,0-1.33-1.76c-1.09-.74.08-.73.08-.73a2.55,2.55,0,0,1,1.84,1.24,2.56,2.56,0,0,0,3.49,1,2.59,2.59,0,0,1,.76-1.61c-2.66-.3-5.47-1.33-5.47-5.93a4.63,4.63,0,0,1,1.24-3.22A4.28,4.28,0,0,1,13.7,13s1-.33,3.3,1.23a11.18,11.18,0,0,1,6,0C25.3,12.65,26.3,13,26.3,13a4.28,4.28,0,0,1,.12,3.17,4.63,4.63,0,0,1,1.23,3.22c0,4.61-2.8,5.63-5.47,5.92A2.88,2.88,0,0,1,23,27.52c0,1.6,0,2.89,0,3.29s.21.69.82.58A12,12,0,0,0,20,8Z"/></g></svg></a>
+            </div>
+            <p class="paragraph line-height font-size text-color">
+                Este proyecto es un desafío de Frontendmentor. Simula la venta de un producto en una tienda online. Este desafío pertenece al nivel de dificultad Intermedio en Frontendmentor.
+            </p>
+        </section>
+        <section class="section-knowledge">
+            <h2 id="knowledge" class="aligned">Conocimientos</h2>
+            <div class="section-knowledge__images-container">
+                <div class="section-knowledge__images-subcontainer">
+                    <img src="assets/images/html.svg" class="knowledge-image" loading="lazy" width="85" height="auto" alt="logo de html 5" title="HTML">
+                    <p class="technology-name">HTML</p>
+                </div>
+                <div class="section-knowledge__images-subcontainer">
+                    <img src="assets/images/css.svg" class="knowledge-image" loading="lazy" width="85" height="auto" alt="logo de css" title="CSS">
+                    <p class="technology-name">CSS</p>
+                </div>
+                <div class="section-knowledge__images-subcontainer">
+                    <img src="assets/images/js.svg" class="knowledge-image" loading="lazy" width="85" height="auto" alt="logo de JavaScript" title="JavaScript">
+                    <p class="technology-name">JavaScript</p>
+                </div>
+                <div class="section-knowledge__images-subcontainer">
+                    <img src="assets/images/angular.svg" class="knowledge-image" loading="lazy" width="85" height="auto" alt="logo de Angular" title="Angular">
+                    <p class="technology-name">Angular</p>
+                </div>
+                <div class="section-knowledge__images-subcontainer">
+                    <img src="assets/images/git.svg" class="knowledge-image" loading="lazy" width="85" height="auto" alt="logo de git" title="Git">
+                    <p class="technology-name">Git</p>
+                </div>
+                <div class="section-knowledge__images-subcontainer">
+                    <img src="assets/images/linux.svg" class="knowledge-image" loading="lazy" width="85" height="auto" alt="logo de Linux" title="Linux">
+                    <p class="technology-name">Linux</p>
+                </div>
+                <div class="section-knowledge__images-subcontainer">
+                    <img src="assets/images/sql.svg" class="knowledge-image" loading="lazy" width="85" height="auto" alt="logo de SQL" title="SQL">
+                    <p class="technology-name">SQL</p>
+                </div>
+                <div class="section-knowledge__images-subcontainer">
+                    <img src="assets/images/python.svg" class="knowledge-image coming-soon" loading="lazy" width="85" height="auto" alt="logo de Python" title="Python">
+                    <div class="overlay-coming-soon-showing"><p>Lo siguiente</p></div>
+                    <p class="technology-name">Python</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer font-size">
+        <div class="footer__data">
+            <h4 class="footer__name">Enmanuel Otero Montano</h4>
+            <p class="footer__location text-color">Montevideo, Uruguay</p>
+        </div>
+        <div class="footer-nav">
+            <a href="#header" class="footer__right-container-nav">Inicio</a>
+            <a href="#about-me" class="footer__right-container-nav">Sobre mí</a>
+            <a href="#projects" class="footer__right-container-nav">Proyectos</a>
+            <a href="#knowledge" class="footer__right-container-nav">Conocimientos</a>
+        </div>
+        <ul class="footer__list-socials">
+            <li title="Contáctame por Telegram"><a class="contact-me" href="https://t.me/enmanuelom" target="_blanck"><svg class="nav-contact-icon" width="25" height="25" viewBox="0 0 24 24"><path d="M9.78,18.65L10.06,14.42L17.74,7.5C18.08,7.19 17.67,7.04 17.22,7.31L7.74,13.3L3.64,12C2.76,11.75 2.75,11.14 3.84,10.7L19.81,4.54C20.54,4.21 21.24,4.72 20.96,5.84L18.24,18.65C18.05,19.56 17.5,19.78 16.74,19.36L12.6,16.3L10.61,18.23C10.38,18.46 10.19,18.65 9.78,18.65Z"/></svg></a></li>
+            <li title="Perfil de Linkedin"><a class="contact-me" href="https://www.linkedin.com/in/enmanuel-otero-montano-1a001618b/" target="_blanck"><svg class="nav-contact-icon" width="25" height="25" viewBox="0 0 32 32"><path d="M8.268 28h-5.805v-18.694h5.805zM5.362 6.756c-1.856 0-3.362-1.538-3.362-3.394s1.505-3.362 3.362-3.362 3.362 1.505 3.362 3.362c0 1.856-1.506 3.394-3.362 3.394zM29.994 28h-5.792v-9.1c0-2.169-0.044-4.95-3.018-4.95-3.018 0-3.481 2.356-3.481 4.794v9.256h-5.799v-18.694h5.567v2.55h0.081c0.775-1.469 2.668-3.019 5.492-3.019 5.875 0 6.955 3.869 6.955 8.894v10.269z"/></svg></a></li>
+            <li title="Perfil de Github"><a class="contact-me" href="https://github.com/Enmanuel-Otero-Montano" target="_blank"><svg class="nav-contact-icon" width="28" height="28" viewBox="0 1 38 32"><defs></defs><title/><g><path width="30" height="30" d="M20,8a12,12,0,0,0-3.79,23.39c.6.11.82-.26.82-.58s0-1,0-2c-3.34.72-4-1.61-4-1.61a3.21,3.21,0,0,0-1.33-1.76c-1.09-.74.08-.73.08-.73a2.55,2.55,0,0,1,1.84,1.24,2.56,2.56,0,0,0,3.49,1,2.59,2.59,0,0,1,.76-1.61c-2.66-.3-5.47-1.33-5.47-5.93a4.63,4.63,0,0,1,1.24-3.22A4.28,4.28,0,0,1,13.7,13s1-.33,3.3,1.23a11.18,11.18,0,0,1,6,0C25.3,12.65,26.3,13,26.3,13a4.28,4.28,0,0,1,.12,3.17,4.63,4.63,0,0,1,1.23,3.22c0,4.61-2.8,5.63-5.47,5.92A2.88,2.88,0,0,1,23,27.52c0,1.6,0,2.89,0,3.29s.21.69.82.58A12,12,0,0,0,20,8Z"/></g></svg></a></li>
+        </ul>
+        <p class="created-by text-color">Creado con <span><img class="created-by__icon yellow-icon" width="17" height="auto" src="assets/images/brain.svg" alt="cerebro"></span> y <span><img class="created-by__icon yellow-icon" width="17" height="auto" src="assets/images/heart.svg" alt="corazon"></span> por Enmanuel.</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
