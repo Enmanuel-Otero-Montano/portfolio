@@ -641,8 +641,7 @@ img {
 .footer__list-socials {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
-    width: 45%;
+    width: 80%;
     padding-left: 0;
 }
 
@@ -650,6 +649,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-weight: 500;
 }
 
 .created-by {
