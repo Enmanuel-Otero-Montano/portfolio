@@ -264,10 +264,6 @@ body.dark {
     padding-right: 13px;
 }
 
-.nav-contact-icon {
-    filter: var(--filter)
-}
-
 /* Estilos para "section-hero" */
 
 .section-hero {
@@ -641,7 +637,7 @@ img {
 .footer__list-socials {
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: min(40%, 210px);
     padding-left: 0;
 }
 
@@ -714,10 +710,6 @@ img {
 
     .avatar-container {
         display: none;
-    }
-
-    .footer__list-socials {
-        width: 28%;
     }
 }
 
@@ -879,7 +871,6 @@ img {
     .footer__list-socials {
         align-items: center;
         height: max-content;
-        width: 25%;
         margin-top: 0;
     }
 
