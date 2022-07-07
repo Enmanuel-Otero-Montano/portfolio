@@ -653,6 +653,7 @@ img {
 
 .contact-me > svg {
     margin-left: 8px;
+    border: solid 1px hsl(200, 50%, 35%);
     background-color: hsl(200, 50%, 35%);
 }
 
