@@ -646,14 +646,15 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 24px;
     padding-left: 8px;
     border: solid 1px hsl(200, 50%, 35%);
-    border-radius: 4px;
+    border-radius: 3px;
+    overflow: hidden;
 }
 
 .contact-me > svg {
     margin-left: 8px;
-    border: solid 1px hsl(200, 50%, 35%);
     background-color: hsl(200, 50%, 35%);
 }
 
