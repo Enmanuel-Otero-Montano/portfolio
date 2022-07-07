@@ -37,7 +37,7 @@
 </head>
 <body>
     <header id="header" class="header">
-        <div id="menu" class="header__menu-container" role="button">
+        <div id="menu" class="header__menu-container" aria-label="menu" role="button">
             <div class="hamburger-menu"></div>
             <div class="hamburger-menu"></div>
             <div class="hamburger-menu"></div>
@@ -50,9 +50,9 @@
                 <li><a href="#contact-me" class="nav-links">Contáctame</a></li>
             </ul>
             <ul class="list-socials">
-                <li title="Contáctame por Telegram"><a href="https://t.me/enmanuelom" target="_blanck"><svg class="nav-contact-icon" width="25" height="25" viewBox="0 0 48 48" fill="none"><path d="M24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0C10.7452 0 0 10.7452 0 24C0 37.2548 10.7452 48 24 48Z" fill="url(#paint0_linear)"/><path d="M8.93822 25.174C11.7438 23.6286 14.8756 22.3388 17.8018 21.0424C22.836 18.919 27.8902 16.8324 32.9954 14.8898C33.9887 14.5588 35.7734 14.2351 35.9484 15.7071C35.8526 17.7907 35.4584 19.8621 35.188 21.9335C34.5017 26.4887 33.7085 31.0283 32.935 35.5685C32.6685 37.0808 30.774 37.8637 29.5618 36.8959C26.6486 34.9281 23.713 32.9795 20.837 30.9661C19.8949 30.0088 20.7685 28.6341 21.6099 27.9505C24.0093 25.5859 26.5539 23.5769 28.8279 21.0901C29.4413 19.6088 27.6289 20.8572 27.0311 21.2397C23.7463 23.5033 20.5419 25.9051 17.0787 27.8945C15.3097 28.8683 13.2479 28.0361 11.4797 27.4927C9.89428 26.8363 7.57106 26.175 8.93806 25.1741L8.93822 25.174Z" fill="white"/><defs><linearGradient id="paint0_linear" x1="18.0028" y1="2.0016" x2="6.0028" y2="30" gradientUnits="userSpaceOnUse"><stop stop-color="#37AEE2"/><stop offset="1" stop-color="#1E96C8"/></linearGradient></defs></svg></a></li>
-                <li title="Perfil de Linkedin"><a href="https://www.linkedin.com/in/enmanuel-otero-montano-1a001618b/" target="_blanck"><svg class="nav-contact-icon" width="25" height="25" style="enable-background:new 0 0 64 64;" viewBox="0 0 64 64"><style type="text/css">.st8{fill:#0077B5;}</style><path class="st8" d="M2,6v52c0,2.2,1.8,4,4,4h52c2.2,0,4-1.8,4-4V6c0-2.2-1.8-4-4-4H6C3.8,2,2,3.8,2,6z M19.1,52H12V24.4h7.1V52z    M15.6,18.9c-2,0-3.6-1.5-3.6-3.4c0-1.9,1.6-3.4,3.6-3.4c2,0,3.6,1.5,3.6,3.4C19.1,17.4,17.5,18.9,15.6,18.9z M52,52h-7.1V38.2   c0-2.9-0.1-4.8-0.4-5.7c-0.3-0.9-0.8-1.5-1.4-2c-0.7-0.5-1.5-0.7-2.4-0.7c-1.2,0-2.3,0.3-3.2,1c-1,0.7-1.6,1.6-2,2.7   c-0.4,1.1-0.5,3.2-0.5,6.2V52h-8.6V24.4h7.1v4.1c2.4-3.1,5.5-4.7,9.2-4.7c1.6,0,3.1,0.3,4.5,0.9c1.3,0.6,2.4,1.3,3.1,2.2   c0.7,0.9,1.2,1.9,1.4,3.1c0.3,1.1,0.4,2.8,0.4,4.9V52z"/></svg></a></li>
-                <li title="Perfil de Github"><a href="https://github.com/Enmanuel-Otero-Montano" target="_blank"><svg class="nav-contact-icon" width="25" height="25" enable-background="new 0 0 128 128" viewBox="0 0 128 128"><rect clip-rule="evenodd" fill="none" fill-rule="evenodd" height="25" width="25"/><path clip-rule="evenodd" d="M63.996,1.333C28.656,1.333,0,30.099,0,65.591    c0,28.384,18.336,52.467,43.772,60.965c3.2,0.59,4.368-1.394,4.368-3.096c0-1.526-0.056-5.566-0.088-10.927    c-17.804,3.883-21.56-8.614-21.56-8.614c-2.908-7.421-7.104-9.397-7.104-9.397c-5.812-3.988,0.44-3.907,0.44-3.907    c6.42,0.454,9.8,6.622,9.8,6.622c5.712,9.819,14.98,6.984,18.628,5.337c0.58-4.152,2.236-6.984,4.064-8.59    c-14.212-1.622-29.152-7.132-29.152-31.753c0-7.016,2.492-12.75,6.588-17.244c-0.66-1.626-2.856-8.156,0.624-17.003    c0,0,5.376-1.727,17.6,6.586c5.108-1.426,10.58-2.136,16.024-2.165c5.436,0.028,10.912,0.739,16.024,2.165    c12.216-8.313,17.58-6.586,17.58-6.586c3.492,8.847,1.296,15.377,0.636,17.003c4.104,4.494,6.58,10.228,6.58,17.244    c0,24.681-14.964,30.115-29.22,31.705c2.296,1.984,4.344,5.903,4.344,11.899c0,8.59-0.08,15.517-0.08,17.626    c0,1.719,1.152,3.719,4.4,3.088C109.68,118.034,128,93.967,128,65.591C128,30.099,99.344,1.333,63.996,1.333" fill="#3E75C3" fill-rule="evenodd"/></svg></a></li>
+                <li title="Perfil de Github"><a class="contact-me" href="https://github.com/Enmanuel-Otero-Montano" target="_blank">Github<svg width="24" height="24" viewBox="0 0 512 512"><path fill="#fff" d="M335 499c14 0 12 17 12 17H165s-2-17 12-17c13 0 16-6 16-12l-1-50c-71 16-86-28-86-28-12-30-28-37-28-37-24-16 1-16 1-16 26 2 40 26 40 26 22 39 59 28 74 22 2-17 9-28 16-35-57-6-116-28-116-126 0-28 10-51 26-69-3-6-11-32 3-67 0 0 21-7 70 26 42-12 86-12 128 0 49-33 70-26 70-26 14 35 6 61 3 67 16 18 26 41 26 69 0 98-60 120-117 126 10 8 18 24 18 48l-1 70c0 6 3 12 16 12z"/></svg></a></li>
+                <li title="Perfil de Linkedin"><a class="contact-me" href="https://www.linkedin.com/in/enmanuel-otero-montano/" target="_blanck">Linkedin<svg height="24" viewBox="0 0 72 72" width="24"><g fill-rule="evenodd"><path d="M62,62 L51.315625,62 L51.315625,43.8021149 C51.315625,38.8127542 49.4197917,36.0245323 45.4707031,36.0245323 C41.1746094,36.0245323 38.9300781,38.9261103 38.9300781,43.8021149 L38.9300781,62 L28.6333333,62 L28.6333333,27.3333333 L38.9300781,27.3333333 L38.9300781,32.0029283 C38.9300781,32.0029283 42.0260417,26.2742151 49.3825521,26.2742151 C56.7356771,26.2742151 62,30.7644705 62,40.051212 L62,62 Z M16.349349,22.7940133 C12.8420573,22.7940133 10,19.9296567 10,16.3970067 C10,12.8643566 12.8420573,10 16.349349,10 C19.8566406,10 22.6970052,12.8643566 22.6970052,16.3970067 C22.6970052,19.9296567 19.8566406,22.7940133 16.349349,22.7940133 Z M11.0325521,62 L21.769401,62 L21.769401,27.3333333 L11.0325521,27.3333333 L11.0325521,62 Z" fill="#FFF"/></g></svg></a></li>
+                <li title="Contáctame por Telegram"><a class="contact-me" href="https://t.me/enmanuelom" target="_blanck">Telegram<svg width="24" height="24" viewBox="0 0 512 512"><path fill="#c8daea" d="M199 404c-11 0-10-4-13-14l-32-105 245-144"/><path fill="#a9c9dd" d="M199 404c7 0 11-4 16-8l45-43-56-34"/><path fill="#f6fbfe" d="M204 319l135 99c14 9 26 4 30-14l55-258c5-22-9-32-24-25L79 245c-21 8-21 21-4 26l83 26 190-121c9-5 17-3 11 4"/></svg></a></li>
             </ul>
         </nav>
         <div class="body-overlay">
@@ -87,7 +87,7 @@
         <section class="section-about-me">
             <h2 id="about-me" class="aligned">Sobre mí</h2>
             <div class="avatar-container">
-                <img src="assets/images/yo.jpg" class="avatar" alt="foto">
+                <img src="assets/images/yo.jpg" class="avatar" width="140" height="140" alt="foto">
             </div>
             <p class="paragraph line-height font-size text-color">
                 Mi nombre es Enmanuel Otero Montano. Actualmente vivo en Montevideo. Soy graduado de Bachillerato Técnico en Informática. Mi experiencia laboral ha estado vinculada a 3 rubros principalmente, entre ellas la informática. Mi trabajo en el sector de la informática se ha desarrollado principalmente en el soporte técnico y la programación, esta última en los primeros años de trabajo. A día de hoy me encuentro estudiando para actualizar los conocimientos de programación.
@@ -100,17 +100,17 @@
             <h2 id="projects" class="aligned">Proyectos</h2>
             <h3 class="project-names aligned">Banderas, países y regiones</h3>
             <div class="container-presentation-image">
-                <img src="assets/images/banderas-0.png" class="project-images" alt="imágenes del proyecto">
-                <img src="assets/images/banderas-1.png" class="project-images" alt="imágenes del proyecto">
-                <img src="assets/images/banderas-2.png" class="project-images" alt="imágenes del proyecto">
+                <img src="assets/images/banderas-0.webp" class="project-images" alt="imágenes del proyecto">
+                <img src="assets/images/banderas-1.webp" class="project-images" alt="imágenes del proyecto">
+                <img src="assets/images/banderas-2.webp" class="project-images" alt="imágenes del proyecto">
             </div>
             <div class="buttons-slide-container">
-                <button class="btn-left btn-disabled-opacity" disabled><svg width="25" height="25" viewBox="0 0 100 100"><title/><polygon points="65 80 50 50 65 20 35 50 65 80"/></svg></button>
-                <button class="btn-right"><svg width="25" height="25" viewBox="0 0 100 100"><title/><polygon points="65 80 50 50 65 20 35 50 65 80"/></svg></button>
+                <button class="btn-left btn-disabled-opacity" aria-label="deslizar imagen" disabled><svg width="25" height="25" viewBox="0 0 100 100"><title/><polygon points="65 80 50 50 65 20 35 50 65 80"/></svg></button>
+                <button class="btn-right" aria-label="deslizar imagen"><svg width="25" height="25" viewBox="0 0 100 100"><title/><polygon points="65 80 50 50 65 20 35 50 65 80"/></svg></button>
             </div>
             <div class="project-links-container">
                 <a href="https://enmanuel-otero-montano.github.io/Juego-de-Banderas/" target="_blanck" class="project-links">Demo<svg aria-hidden="true" class="project-links-icon-play" witdth="34" height="34" style="enable-background:new 0 0 100 100;" viewBox="0 0 100 100" xml:space="preserve"><g id="Layer_4_copy"><path d="M31.356,25.677l38.625,22.3c1.557,0.899,1.557,3.147,0,4.046l-38.625,22.3c-1.557,0.899-3.504-0.225-3.504-2.023V27.7   C27.852,25.902,29.798,24.778,31.356,25.677z"/><path d="M69.981,47.977l-38.625-22.3c-0.233-0.134-0.474-0.21-0.716-0.259l37.341,21.559c1.557,0.899,1.557,3.147,0,4.046   l-38.625,22.3c-0.349,0.201-0.716,0.288-1.078,0.301c0.656,0.938,1.961,1.343,3.078,0.699l38.625-22.3   C71.538,51.124,71.538,48.876,69.981,47.977z"/><path d="M31.356,25.677l38.625,22.3c1.557,0.899,1.557,3.147,0,4.046   l-38.625,22.3c-1.557,0.899-3.504-0.225-3.504-2.023V27.7C27.852,25.902,29.798,24.778,31.356,25.677z" style="fill:none;stroke:#000000;stroke-miterlimit:10;"/></g></svg></a>
-                <a href="https://github.com/Enmanuel-Otero-Montano/Juego-de-Banderas" target="_blanck" class="project-links">Repo<svg class="nav-contact-icon" width="32" height="32" viewBox="2 2 38 38"><defs></defs><title/><g><path width="30" height="30" d="M20,8a12,12,0,0,0-3.79,23.39c.6.11.82-.26.82-.58s0-1,0-2c-3.34.72-4-1.61-4-1.61a3.21,3.21,0,0,0-1.33-1.76c-1.09-.74.08-.73.08-.73a2.55,2.55,0,0,1,1.84,1.24,2.56,2.56,0,0,0,3.49,1,2.59,2.59,0,0,1,.76-1.61c-2.66-.3-5.47-1.33-5.47-5.93a4.63,4.63,0,0,1,1.24-3.22A4.28,4.28,0,0,1,13.7,13s1-.33,3.3,1.23a11.18,11.18,0,0,1,6,0C25.3,12.65,26.3,13,26.3,13a4.28,4.28,0,0,1,.12,3.17,4.63,4.63,0,0,1,1.23,3.22c0,4.61-2.8,5.63-5.47,5.92A2.88,2.88,0,0,1,23,27.52c0,1.6,0,2.89,0,3.29s.21.69.82.58A12,12,0,0,0,20,8Z"/></g></svg></a>
+                <a href="https://github.com/Enmanuel-Otero-Montano/Juego-de-Banderas" target="_blanck" class="project-links">Repo<svg class="project-links-icon-play" width="32" height="32" viewBox="2 2 38 38"><defs></defs><title/><g><path width="30" height="30" d="M20,8a12,12,0,0,0-3.79,23.39c.6.11.82-.26.82-.58s0-1,0-2c-3.34.72-4-1.61-4-1.61a3.21,3.21,0,0,0-1.33-1.76c-1.09-.74.08-.73.08-.73a2.55,2.55,0,0,1,1.84,1.24,2.56,2.56,0,0,0,3.49,1,2.59,2.59,0,0,1,.76-1.61c-2.66-.3-5.47-1.33-5.47-5.93a4.63,4.63,0,0,1,1.24-3.22A4.28,4.28,0,0,1,13.7,13s1-.33,3.3,1.23a11.18,11.18,0,0,1,6,0C25.3,12.65,26.3,13,26.3,13a4.28,4.28,0,0,1,.12,3.17,4.63,4.63,0,0,1,1.23,3.22c0,4.61-2.8,5.63-5.47,5.92A2.88,2.88,0,0,1,23,27.52c0,1.6,0,2.89,0,3.29s.21.69.82.58A12,12,0,0,0,20,8Z"/></g></svg></a>
             </div>
             <p class="paragraph line-height font-size text-color">
                 Este proyecto es personal. Es una aplicación didáctica e interactiva y como su nombre indica se trata de banderas y países. Tiene algunas características de videojuego para hacerla más desafiante y entretenida. Visite el repositorio para conocer futuras implementaciones y más detalles sobre el desarrollo.
@@ -122,12 +122,12 @@
                 <img src="assets/images/ecommerce-2.webp" class="project-images" alt="imágenes del proyecto">
             </div>
             <div class="buttons-slide-container">
-                <button class="btn-left btn-disabled-opacity" disabled><svg width="25" height="25" viewBox="0 0 100 100"><title/><polygon points="65 80 50 50 65 20 35 50 65 80"/></svg></button>
-                <button class="btn-right"><svg width="25" height="25" viewBox="0 0 100 100"><title/><polygon points="65 80 50 50 65 20 35 50 65 80"/></svg></button>
+                <button class="btn-left btn-disabled-opacity" aria-label="deslizar imagen" disabled><svg width="25" height="25" viewBox="0 0 100 100"><title/><polygon points="65 80 50 50 65 20 35 50 65 80"/></svg></button>
+                <button class="btn-right" aria-label="deslizar imagen"><svg width="25" height="25" viewBox="0 0 100 100"><title/><polygon points="65 80 50 50 65 20 35 50 65 80"/></svg></button>
             </div>
             <div class="project-links-container">
                 <a href="https://enmanuel-otero-montano.github.io/ecommerce-product-page/" target="_blanck" class="project-links">Demo<svg aria-hidden="true" class="project-links-icon-play" width="34" height="34" style="enable-background:new 0 0 100 100;" viewBox="0 0 100 100" xml:space="preserve"><g id="Layer_4_copy"><path d="M31.356,25.677l38.625,22.3c1.557,0.899,1.557,3.147,0,4.046l-38.625,22.3c-1.557,0.899-3.504-0.225-3.504-2.023V27.7   C27.852,25.902,29.798,24.778,31.356,25.677z"/><path d="M69.981,47.977l-38.625-22.3c-0.233-0.134-0.474-0.21-0.716-0.259l37.341,21.559c1.557,0.899,1.557,3.147,0,4.046   l-38.625,22.3c-0.349,0.201-0.716,0.288-1.078,0.301c0.656,0.938,1.961,1.343,3.078,0.699l38.625-22.3   C71.538,51.124,71.538,48.876,69.981,47.977z"/><path d="M31.356,25.677l38.625,22.3c1.557,0.899,1.557,3.147,0,4.046   l-38.625,22.3c-1.557,0.899-3.504-0.225-3.504-2.023V27.7C27.852,25.902,29.798,24.778,31.356,25.677z" style="fill:none;stroke:#000000;stroke-miterlimit:10;"/></g></svg></a>
-                <a href="https://github.com/Enmanuel-Otero-Montano/ecommerce-product-page" target="_blanck" class="project-links">Repo<svg class="nav-contact-icon" width="32" height="32" viewBox="2 2 38 38"><defs></defs><title/><g><path width="30" height="30" d="M20,8a12,12,0,0,0-3.79,23.39c.6.11.82-.26.82-.58s0-1,0-2c-3.34.72-4-1.61-4-1.61a3.21,3.21,0,0,0-1.33-1.76c-1.09-.74.08-.73.08-.73a2.55,2.55,0,0,1,1.84,1.24,2.56,2.56,0,0,0,3.49,1,2.59,2.59,0,0,1,.76-1.61c-2.66-.3-5.47-1.33-5.47-5.93a4.63,4.63,0,0,1,1.24-3.22A4.28,4.28,0,0,1,13.7,13s1-.33,3.3,1.23a11.18,11.18,0,0,1,6,0C25.3,12.65,26.3,13,26.3,13a4.28,4.28,0,0,1,.12,3.17,4.63,4.63,0,0,1,1.23,3.22c0,4.61-2.8,5.63-5.47,5.92A2.88,2.88,0,0,1,23,27.52c0,1.6,0,2.89,0,3.29s.21.69.82.58A12,12,0,0,0,20,8Z"/></g></svg></a>
+                <a href="https://github.com/Enmanuel-Otero-Montano/ecommerce-product-page" target="_blanck" class="project-links">Repo<svg class="project-links-icon-play" width="32" height="32" viewBox="2 2 38 38"><defs></defs><title/><g><path width="30" height="30" d="M20,8a12,12,0,0,0-3.79,23.39c.6.11.82-.26.82-.58s0-1,0-2c-3.34.72-4-1.61-4-1.61a3.21,3.21,0,0,0-1.33-1.76c-1.09-.74.08-.73.08-.73a2.55,2.55,0,0,1,1.84,1.24,2.56,2.56,0,0,0,3.49,1,2.59,2.59,0,0,1,.76-1.61c-2.66-.3-5.47-1.33-5.47-5.93a4.63,4.63,0,0,1,1.24-3.22A4.28,4.28,0,0,1,13.7,13s1-.33,3.3,1.23a11.18,11.18,0,0,1,6,0C25.3,12.65,26.3,13,26.3,13a4.28,4.28,0,0,1,.12,3.17,4.63,4.63,0,0,1,1.23,3.22c0,4.61-2.8,5.63-5.47,5.92A2.88,2.88,0,0,1,23,27.52c0,1.6,0,2.89,0,3.29s.21.69.82.58A12,12,0,0,0,20,8Z"/></g></svg></a>
             </div>
             <p class="paragraph line-height font-size text-color">
                 Este proyecto es un desafío de Frontendmentor. Simula la venta de un producto en una tienda online. Este desafío pertenece al nivel de dificultad Intermedio en Frontendmentor.
@@ -137,35 +137,35 @@
             <h2 id="knowledge" class="aligned">Conocimientos</h2>
             <div class="section-knowledge__images-container">
                 <div class="section-knowledge__images-subcontainer">
-                    <img src="assets/images/html.svg" class="knowledge-image" loading="lazy" width="85" height="auto" alt="logo de html 5" title="HTML">
+                    <img src="assets/images/html.svg" class="knowledge-image" loading="lazy" width="85" height="85" alt="logo de html 5" title="HTML">
                     <p class="technology-name">HTML</p>
                 </div>
                 <div class="section-knowledge__images-subcontainer">
-                    <img src="assets/images/css.svg" class="knowledge-image" loading="lazy" width="85" height="auto" alt="logo de css" title="CSS">
+                    <img src="assets/images/css.svg" class="knowledge-image" loading="lazy" width="85" height="85" alt="logo de css" title="CSS">
                     <p class="technology-name">CSS</p>
                 </div>
                 <div class="section-knowledge__images-subcontainer">
-                    <img src="assets/images/js.svg" class="knowledge-image" loading="lazy" width="85" height="auto" alt="logo de JavaScript" title="JavaScript">
+                    <img src="assets/images/js.svg" class="knowledge-image" loading="lazy" width="85" height="85" alt="logo de JavaScript" title="JavaScript">
                     <p class="technology-name">JavaScript</p>
                 </div>
                 <div class="section-knowledge__images-subcontainer">
-                    <img src="assets/images/angular.svg" class="knowledge-image" loading="lazy" width="85" height="auto" alt="logo de Angular" title="Angular">
+                    <img src="assets/images/angular.svg" class="knowledge-image" loading="lazy" width="85" height="85" alt="logo de Angular" title="Angular">
                     <p class="technology-name">Angular</p>
                 </div>
                 <div class="section-knowledge__images-subcontainer">
-                    <img src="assets/images/git.svg" class="knowledge-image" loading="lazy" width="85" height="auto" alt="logo de git" title="Git">
+                    <img src="assets/images/git.svg" class="knowledge-image" loading="lazy" width="85" height="85" alt="logo de git" title="Git">
                     <p class="technology-name">Git</p>
                 </div>
                 <div class="section-knowledge__images-subcontainer">
-                    <img src="assets/images/linux.svg" class="knowledge-image" loading="lazy" width="85" height="auto" alt="logo de Linux" title="Linux">
+                    <img src="assets/images/linux.svg" class="knowledge-image" loading="lazy" width="85" height="85" alt="logo de Linux" title="Linux">
                     <p class="technology-name">Linux</p>
                 </div>
                 <div class="section-knowledge__images-subcontainer">
-                    <img src="assets/images/sql.svg" class="knowledge-image" loading="lazy" width="85" height="auto" alt="logo de SQL" title="SQL">
+                    <img src="assets/images/sql.svg" class="knowledge-image" loading="lazy" width="85" height="85" alt="logo de SQL" title="SQL">
                     <p class="technology-name">SQL</p>
                 </div>
                 <div class="section-knowledge__images-subcontainer">
-                    <img src="assets/images/python.svg" class="knowledge-image coming-soon" loading="lazy" width="85" height="auto" alt="logo de Python" title="Python">
+                    <img src="assets/images/python.svg" class="knowledge-image coming-soon" loading="lazy" width="85" height="85" alt="logo de Python" title="Python">
                     <div class="overlay-coming-soon-showing"><p>Lo siguiente</p></div>
                     <p class="technology-name">Python</p>
                 </div>
@@ -184,11 +184,11 @@
             <a href="#knowledge" class="footer__right-container-nav">Conocimientos</a>
         </div>
         <ul class="footer__list-socials">
-            <li title="Contáctame por Telegram"><a class="contact-me" href="https://t.me/enmanuelom" target="_blanck"><svg width="25" height="25" viewBox="0 0 512 512"><defs><style>.cls-1{fill:url(#linear-gradient);}</style><linearGradient gradientUnits="userSpaceOnUse" id="linear-gradient" x2="502.697" y1="512" y2="9.303"><stop offset="0" stop-color="#2081c7"/><stop offset="1" stop-color="#38afe2"/></linearGradient></defs><title/><path class="cls-1"  d="M256,0C114.615,0,0,114.615,0,256S114.615,512,256,512,512,397.385,512,256,397.385,0,256,0ZM389.059,161.936,343.591,379a16.007,16.007,0,0,1-25.177,9.593l-66.136-48.861-40.068,37.8a5.429,5.429,0,0,1-7.74-.294l-.861-.946,6.962-67.375L336.055,194.266a3.358,3.358,0,0,0-4.061-5.317L171.515,290.519,102.4,267.307a9.393,9.393,0,0,1-.32-17.694L372.5,147.744A12.441,12.441,0,0,1,389.059,161.936Z"/></svg></a></li>
-            <li title="Perfil de Linkedin"><a class="contact-me" href="https://www.linkedin.com/in/enmanuel-otero-montano-1a001618b/" target="_blanck"><svg width="24.5" height="24.5" style="enable-background:new 0 0 64 64;" viewBox="0 0 64 64"><style type="text/css">.st8{fill:#0077B5;}</style><path class="st8" d="M2,6v52c0,2.2,1.8,4,4,4h52c2.2,0,4-1.8,4-4V6c0-2.2-1.8-4-4-4H6C3.8,2,2,3.8,2,6z M19.1,52H12V24.4h7.1V52z    M15.6,18.9c-2,0-3.6-1.5-3.6-3.4c0-1.9,1.6-3.4,3.6-3.4c2,0,3.6,1.5,3.6,3.4C19.1,17.4,17.5,18.9,15.6,18.9z M52,52h-7.1V38.2   c0-2.9-0.1-4.8-0.4-5.7c-0.3-0.9-0.8-1.5-1.4-2c-0.7-0.5-1.5-0.7-2.4-0.7c-1.2,0-2.3,0.3-3.2,1c-1,0.7-1.6,1.6-2,2.7   c-0.4,1.1-0.5,3.2-0.5,6.2V52h-8.6V24.4h7.1v4.1c2.4-3.1,5.5-4.7,9.2-4.7c1.6,0,3.1,0.3,4.5,0.9c1.3,0.6,2.4,1.3,3.1,2.2   c0.7,0.9,1.2,1.9,1.4,3.1c0.3,1.1,0.4,2.8,0.4,4.9V52z"/></svg></a></li>
-            <li title="Perfil de Github"><a class="contact-me" href="https://github.com/Enmanuel-Otero-Montano" target="_blank"><svg width="25" height="25" enable-background="new 0 0 128 128" viewBox="0 0 128 128" xml:space="preserve"><g><g><rect clip-rule="evenodd" fill="none" fill-rule="evenodd" height="25" width="25"/><path clip-rule="evenodd" d="M63.996,1.333C28.656,1.333,0,30.099,0,65.591    c0,28.384,18.336,52.467,43.772,60.965c3.2,0.59,4.368-1.394,4.368-3.096c0-1.526-0.056-5.566-0.088-10.927    c-17.804,3.883-21.56-8.614-21.56-8.614c-2.908-7.421-7.104-9.397-7.104-9.397c-5.812-3.988,0.44-3.907,0.44-3.907    c6.42,0.454,9.8,6.622,9.8,6.622c5.712,9.819,14.98,6.984,18.628,5.337c0.58-4.152,2.236-6.984,4.064-8.59    c-14.212-1.622-29.152-7.132-29.152-31.753c0-7.016,2.492-12.75,6.588-17.244c-0.66-1.626-2.856-8.156,0.624-17.003    c0,0,5.376-1.727,17.6,6.586c5.108-1.426,10.58-2.136,16.024-2.165c5.436,0.028,10.912,0.739,16.024,2.165    c12.216-8.313,17.58-6.586,17.58-6.586c3.492,8.847,1.296,15.377,0.636,17.003c4.104,4.494,6.58,10.228,6.58,17.244    c0,24.681-14.964,30.115-29.22,31.705c2.296,1.984,4.344,5.903,4.344,11.899c0,8.59-0.08,15.517-0.08,17.626    c0,1.719,1.152,3.719,4.4,3.088C109.68,118.034,128,93.967,128,65.591C128,30.099,99.344,1.333,63.996,1.333" fill="#3E75C3" fill-rule="evenodd"/></g></g></svg></a></li>
+            <li title="Perfil de Github"><a class="contact-me" href="https://github.com/Enmanuel-Otero-Montano" target="_blank">Github<svg width="24" height="24" viewBox="0 0 512 512"><path fill="#fff" d="M335 499c14 0 12 17 12 17H165s-2-17 12-17c13 0 16-6 16-12l-1-50c-71 16-86-28-86-28-12-30-28-37-28-37-24-16 1-16 1-16 26 2 40 26 40 26 22 39 59 28 74 22 2-17 9-28 16-35-57-6-116-28-116-126 0-28 10-51 26-69-3-6-11-32 3-67 0 0 21-7 70 26 42-12 86-12 128 0 49-33 70-26 70-26 14 35 6 61 3 67 16 18 26 41 26 69 0 98-60 120-117 126 10 8 18 24 18 48l-1 70c0 6 3 12 16 12z"/></svg></a></li>
+            <li title="Contáctame por Linkedin"><a class="contact-me" href="https://www.linkedin.com/in/enmanuel-otero-montano/" target="_blank">Linkedin<svg height="24" viewBox="0 0 72 72" width="24"><g fill-rule="evenodd"><path d="M62,62 L51.315625,62 L51.315625,43.8021149 C51.315625,38.8127542 49.4197917,36.0245323 45.4707031,36.0245323 C41.1746094,36.0245323 38.9300781,38.9261103 38.9300781,43.8021149 L38.9300781,62 L28.6333333,62 L28.6333333,27.3333333 L38.9300781,27.3333333 L38.9300781,32.0029283 C38.9300781,32.0029283 42.0260417,26.2742151 49.3825521,26.2742151 C56.7356771,26.2742151 62,30.7644705 62,40.051212 L62,62 Z M16.349349,22.7940133 C12.8420573,22.7940133 10,19.9296567 10,16.3970067 C10,12.8643566 12.8420573,10 16.349349,10 C19.8566406,10 22.6970052,12.8643566 22.6970052,16.3970067 C22.6970052,19.9296567 19.8566406,22.7940133 16.349349,22.7940133 Z M11.0325521,62 L21.769401,62 L21.769401,27.3333333 L11.0325521,27.3333333 L11.0325521,62 Z" fill="#FFF"/></g></svg></a></li>
+            <li title="Contáctame por Telegram"><a class="contact-me" href="https://t.me/enmanuelom" target="_blank">Telegram<svg width="24" height="24" viewBox="0 0 512 512"><path fill="#c8daea" d="M199 404c-11 0-10-4-13-14l-32-105 245-144"/><path fill="#a9c9dd" d="M199 404c7 0 11-4 16-8l45-43-56-34"/><path fill="#f6fbfe" d="M204 319l135 99c14 9 26 4 30-14l55-258c5-22-9-32-24-25L79 245c-21 8-21 21-4 26l83 26 190-121c9-5 17-3 11 4"/></svg></a></li>
         </ul>
-        <p class="created-by text-color">Creado con <span><img class="created-by__icon yellow-icon" width="17" height="auto" src="assets/images/brain.svg" alt="cerebro"></span> y <span><img class="created-by__icon yellow-icon" width="17" height="auto" src="assets/images/heart.svg" alt="corazon"></span> por Enmanuel.</p>
+        <p class="created-by text-color">Creado con <span><img class="created-by__icon yellow-icon" loading="lazy" width="17" height="17" src="assets/images/brain.svg" alt="cerebro"></span> y <span><img class="created-by__icon yellow-icon" loading="lazy" width="17" height="17" src="assets/images/heart.svg" alt="corazon"></span> por Enmanuel.</p>
     </footer>
 </body>
 </html>

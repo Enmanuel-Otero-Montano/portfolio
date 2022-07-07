@@ -6,7 +6,7 @@
     --bg-header-color: hsl(29, 41%, 90%);
     --bg-resource-color: hsl(37, 79%, 75%);
     --bg-information: hsl(39, 77%, 85%);
-    --headers-text: hsl(340, 100%, 33%);
+    --headers-text: hsl(340, 100%, 45%);
     --information-border-left: hsl(39, 77%, 53%);
     --border-radius: 5px;
     --filter: invert(0%);
@@ -76,10 +76,9 @@ body.dark {
     background-color: hsl(0, 0%, 12%);
     --third-color-mode-dark: hsl(54, 100%, 55%);
     --text-color: hsl(0, 0%, 100%);
-    --bg-header-color: hsl(0, 0%, 22%);
+    --bg-header-color: hsl(0, 0%, 20%);
     --bg-resource-color: hsl(203, 39%, 34%);
     --bg-information: hsl(0, 0%, 35%);
-    --headers-text: hsl(0, 0%, 100%);
     --text-color-name: hsl(0, 0%, 100%);
     --information-border-left: hsl(54, 100%, 55%);
     transition-property: background-color;
@@ -226,7 +225,7 @@ body.dark {
     left: 0;
     transform: translateX(0);
     transition-property: transform;
-    transition-duration: 1000ms;
+    transition-duration: 800ms;
     transition-delay: 100ms;
 }
 
@@ -254,14 +253,13 @@ body.dark {
 
 .list-socials {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     position: relative;
-    top: 200px;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 13px;
-    padding-right: 13px;
+    top: 160px;
+    width: min-content;
+    height: 110px;
+    padding-left: 18px;
 }
 
 /* Estilos para "section-hero" */
@@ -349,7 +347,7 @@ body.dark {
     align-items: center;
     position: absolute;
     right: 10px;
-    bottom: 35px;
+    bottom: 40px;
     width: 25px;
     height: 40px;
 }
@@ -420,13 +418,13 @@ body.dark {
     height: 140px;
     margin-left: 12px;
     margin-bottom: 6px;
-    border-radius: 50%;
+    border-radius: var(--border-radius);
+    overflow: hidden;
     float: right;
 }
 
 .avatar {
     height: 100%;
-    border-radius: 50%;
     object-fit: cover;
     object-position: right;
 }
@@ -526,7 +524,7 @@ img {
     height: 46px;
     padding: 8px;
     border-radius: var(--border-radius);
-    box-shadow: 0px 1px 7px var(--text-color-name);
+    box-shadow: 0px 0px 5px var(--text-color-name);
     border: solid 1px var(--text-color-name);
 }
 
@@ -636,8 +634,11 @@ img {
 
 .footer__list-socials {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    width: min(40%, 210px);
+    align-items: center;
+    width: min(40%, 300px);
+    height: 110px;
     padding-left: 0;
 }
 
@@ -645,7 +646,14 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-weight: 500;
+    padding-left: 8px;
+    border: solid 1px hsl(200, 50%, 35%);
+    border-radius: 4px;
+}
+
+.contact-me > svg {
+    margin-left: 8px;
+    background-color: hsl(200, 50%, 35%);
 }
 
 .created-by {
@@ -688,6 +696,10 @@ img {
     .footer__right-container-nav:hover {
         text-decoration-line: underline;
     }
+
+    .contact-me:hover > svg {
+        background-color: hsl(200, 100%, 35%);
+    }
 }
 
 @media screen and (max-width: 350px) {
@@ -698,7 +710,7 @@ img {
     }
 
     .project-links {
-        width: 105px;
+        width: 100px;
     }
 }
 
@@ -869,8 +881,6 @@ img {
     }
 
     .footer__list-socials {
-        align-items: center;
-        height: max-content;
         margin-top: 0;
     }
 
@@ -879,10 +889,6 @@ img {
         left: 40%;
         bottom: 12px;
         font-size: .8rem;
-    }
-    
-    .created-by__icon {
-        width: 18px;
     }
 }
 
