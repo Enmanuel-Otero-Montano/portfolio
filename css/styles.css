@@ -245,12 +245,6 @@ body.dark {
     font-weight: 500;
 }
 
-.nav-title {
-    margin-top: 25px;
-    padding-left: 18px;
-    font-weight: 500;
-}
-
 .list-socials {
     display: flex;
     flex-direction: column;
@@ -358,37 +352,19 @@ body.dark {
 }
 
 .arrow-down-one > g {
-    animation-name: arrow-one;
+    animation-name: arrows;
     animation-duration: 600ms;
     animation-iteration-count: infinite;
 }
 
 .arrow-down-two > g {
-    animation-name: arrow-two;
+    animation-name: arrows;
     animation-duration: 600ms;
     animation-delay: 300ms;
     animation-iteration-count: infinite;
 }
 
-@keyframes arrow-one {
-    0% {
-        opacity: .2;
-    }
-    25% {
-        opacity: .4;
-    }
-    50% {
-        opacity: .6;
-    }
-    75% {
-        opacity: .8;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes arrow-two {
+@keyframes arrows {
     0% {
         opacity: .2;
     }
@@ -528,14 +504,8 @@ img {
     border: solid 1px var(--text-color-name);
 }
 
-.project-links-icon-play {
+.project-links-icons {
     width: 34px;
-    filter: var(--filter);
-}
-
-.project-links-icon-github {
-    width: 24px;
-    padding-bottom: 5px;
     filter: var(--filter);
 }
 
@@ -699,8 +669,12 @@ img {
         text-decoration-line: underline;
     }
 
+    .contact-me:hover {
+        border: solid 1px hsl(200, 100%, 38%);
+    }
+
     .contact-me:hover > svg {
-        background-color: hsl(200, 100%, 35%);
+        background-color: hsl(200, 100%, 38%);
     }
 }
 
@@ -817,10 +791,6 @@ img {
         margin-top: 50px;
     }
 
-    .hero__only-name {
-        left: -220px;
-    }
-
     .section-hero__text-container {
         width: 440px;
     }
@@ -909,10 +879,6 @@ img {
         font-size: 1.2rem;
     }
 
-    .body-overlay {
-        left: 65%;
-    }
-
     .logo-container {
         left: calc(100% - 125px);
     }
@@ -921,23 +887,11 @@ img {
         font-size: 2.1rem;
     }
 
-    .hero__only-name {
-        left: -310px;
-    }
-
-    .arrow-container {
-        display: none;
-    }
-
     /* Estilos para el "section-projects" */
 
     .section-projects > .paragraph {
         margin-bottom: 50px;
         font-weight: 500;
-    }
-
-    .right-container::before {
-        left: 50%;
     }
 }
 
@@ -945,16 +899,5 @@ img {
 
     .container-presentation-image {
         max-width: 600px;
-    }
-
-    .body-overlay {
-        left: 64%;
-    }
-}
-
-@media screen and (min-width: 1800px) {
-
-    .body-overlay {
-        left: 62.5%;
     }
 }
